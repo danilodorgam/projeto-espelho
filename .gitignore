@@ -1,0 +1,10 @@
+
+### Intellij ###
+
+.idea/
+### VisualStudioCode ###
+.vscode/*
+#kubeconfig and cache
+kube/config
+kube/cache
+!kube
