@@ -15,7 +15,7 @@ This project aims to provide an environment with the following tools:
 ## build
 
 ```bash
-docker build --no-cache -t k8s-kubetools .
+docker build --no-cache -t danilodorgam/k8s-kubetools .
 ```
 
 ## run
@@ -23,5 +23,5 @@ docker build --no-cache -t k8s-kubetools .
 Run the command in the java project folder you want to use terminal
 
 ```bash
-docker run --dns=8.8.8.8 -v /var/run/docker.sock:/var/run/docker.sock -v ./kube:/app/.kube -v $(pwd):/app -w /app -it k8s-kubetools
+docker run --dns=8.8.8.8 -v /var/run/docker.sock:/var/run/docker.sock -v ./kube:/app/.kube -v $(pwd):/app -w /app -it danilodorgam/k8s-kubetools
 ```
