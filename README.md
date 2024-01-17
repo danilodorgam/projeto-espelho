@@ -25,3 +25,6 @@ Run the command in the java project folder you want to use terminal
 ```bash
 docker run --dns=8.8.8.8 -v /var/run/docker.sock:/var/run/docker.sock -v ./kube:/app/.kube -v $(pwd):/app -w /app -it danilodorgam/k8s-kubetools
 ```
+
+# links
+- https://github.com/danilodorgam/projeto-espelho
